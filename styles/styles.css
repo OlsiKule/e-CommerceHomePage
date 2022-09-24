@@ -432,6 +432,12 @@ button.menuIcon:focus {
   opacity: 0;
   position: absolute;
 }
+.navBar input[type=checkbox]:checked ~ .slideOutNav {
+  left: 0;
+}
+.navBar input[type=checkbox]:focus + label {
+  border: 1px dotted #084b6d;
+}
 .navBar label {
   cursor: pointer;
 }
