@@ -14,7 +14,7 @@ article, aside, footer, header, nav, section {
 
 h1 {
   font-size: 2em;
-  margin: .67em 0;
+  margin: 0.67em 0;
 }
 
 figcaption, figure, main {
@@ -33,7 +33,7 @@ hr {
 }
 
 pre {
-  font-family: monospace,monospace;
+  font-family: monospace, monospace;
   font-size: 1em;
 }
 
@@ -58,7 +58,7 @@ b, strong {
 }
 
 code, kbd, samp {
-  font-family: monospace,monospace;
+  font-family: monospace, monospace;
   font-size: 1em;
 }
 
@@ -83,11 +83,11 @@ sub, sup {
 }
 
 sub {
-  bottom: -.25em;
+  bottom: -0.25em;
 }
 
 sup {
-  top: -.5em;
+  top: -0.5em;
 }
 
 audio, video {
@@ -136,7 +136,7 @@ button:-moz-focusring, [type=button]:-moz-focusring, [type=reset]:-moz-focusring
 }
 
 fieldset {
-  padding: .35em .75em .625em;
+  padding: 0.35em 0.75em 0.625em;
 }
 
 legend {
@@ -235,19 +235,16 @@ html {
   src: url("../fonts/PlusJakarta_Sans-2.5/webfonts/PlusJakartaSans-Regular.woff"), url("../fonts/PlusJakarta_Sans-2.5/static/PlusJakartaSans-Regular.ttf"), url("../fonts/PlusJakarta_Sans-2.5/webfonts/PlusJakartaSans-Regular.woff2");
   font-weight: normal;
 }
-
 /* importing Jakarta Sans font in bold */
 @font-face {
   font-family: "Jakarta Sans";
   src: url("../fonts/PlusJakarta_Sans-2.5/webfonts/PlusJakartaSans-Bold.woff"), url(../fonts/PlusJakarta_Sans-2.5/webfonts/PlusJakartaSans-Bold.woff2), url(../fonts/PlusJakarta_Sans-2.5/static/PlusJakartaSans-Bold.ttf);
   font-weight: bold;
 }
-
 @font-face {
   font-family: "Young Serif";
   src: url("../fonts/youngserif/YoungSerif-Regular.otf");
 }
-
 html {
   font-size: 125%;
 }
@@ -300,19 +297,16 @@ p {
   line-height: 1.5rem;
   margin: 0 0 30px 0;
 }
-
 p.smallCopy {
   font-size: 0.6rem;
   line-height: 1.2rem;
   font-weight: bold;
   margin: 0;
 }
-
 p.popularProduct {
   font-weight: bold;
   margin-bottom: 10px;
 }
-
 p.price {
   font-size: 0.8rem;
   line-height: 1.2rem;
@@ -321,7 +315,6 @@ p.price {
   padding: 0 5px;
   margin: 0;
 }
-
 p.discountedPrice {
   font-size: 0.8rem;
   color: rgba(8, 75, 109, 0.4);
@@ -330,7 +323,6 @@ p.discountedPrice {
   padding: 0 5px;
   margin: 0;
 }
-
 p.newsletterCopy {
   font-size: 0.8rem;
 }
@@ -372,54 +364,44 @@ button {
   transition: 0.3s;
   /* style the button in the main nav menu to look just like an icon */
 }
-
 button:hover {
   background-color: #084b6d;
   color: #fff;
 }
-
 button:focus {
   background-color: #084b6d;
   color: #fff;
 }
-
 button.secondary {
   background-color: transparent;
   border-color: #fff;
   color: #fff;
   padding: 8px 12px;
 }
-
 button.secondary:hover {
   background-color: #fff;
   color: #084b6d;
 }
-
 button.secondary:focus {
   background-color: #fff;
   color: #084b6d;
 }
-
 button.solid {
   color: #fff;
   background-color: #084b6d;
 }
-
 button.solid:hover {
   color: #084b6d;
   background-color: #fff;
 }
-
 button.menuIcon {
   display: inherit;
   padding: 0;
   border: none;
 }
-
 button.menuIcon:hover {
   background-color: transparent;
 }
-
 button.menuIcon:focus {
   background-color: transparent;
 }
@@ -431,14 +413,12 @@ button.menuIcon:focus {
 }
 
 .navBar {
-  position: -webkit-sticky;
   position: sticky;
   top: 0;
   z-index: 10;
   border-bottom: 1px solid rgba(8, 75, 109, 0.08);
   background-color: #fff;
 }
-
 .navBar .wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -448,45 +428,30 @@ button.menuIcon:focus {
           justify-content: space-between;
   padding: 20px 0;
 }
-
 .navBar input[type=checkbox] {
   opacity: 0;
   position: absolute;
 }
-
-.navBar input[type=checkbox]:checked ~ .slideOutNav {
-  left: 0;
-}
-
-.navBar input[type=checkbox]:focus + label {
-  border: 1px dotted #084b6d;
-}
-
 .navBar label {
   cursor: pointer;
 }
-
 .navBar .searchCart {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-
 .navBar .searchCart .searchIcon,
 .navBar .searchCart .bag {
   margin-right: 15px;
 }
-
 .navBar a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-
 .navBar .logo {
   margin-left: 60px;
 }
-
 .navBar .counter {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -495,7 +460,6 @@ button.menuIcon:focus {
       -ms-flex-align: center;
           align-items: center;
 }
-
 .navBar .counter p {
   width: 24px;
   height: 24px;
@@ -527,7 +491,6 @@ button.menuIcon:focus {
   -webkit-transition: 0.75s;
   transition: 0.75s;
 }
-
 .slideOutNav .buttonContainer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -536,7 +499,6 @@ button.menuIcon:focus {
       -ms-flex-pack: end;
           justify-content: flex-end;
 }
-
 .slideOutNav .buttonContainer button {
   font-size: 1.2rem;
   font-weight: normal;
@@ -545,29 +507,24 @@ button.menuIcon:focus {
   background-color: transparent;
   padding: 10px 0 10px 20px;
 }
-
 .slideOutNav hr {
   width: 24px;
   height: 2px;
   margin: 36px 0;
   background-color: #fff;
 }
-
 .slideOutNav .mainMenu a {
   font-family: "Young Serif";
   font-size: 1.6rem;
   line-height: 2.5rem;
-  color: white;
+  color: rgb(255, 255, 255);
 }
-
 .slideOutNav .mainMenu a:hover {
   color: rgba(255, 255, 255, 0.5);
 }
-
 .slideOutNav .mainMenu a:focus {
   color: rgba(255, 255, 255, 0.5);
 }
-
 .slideOutNav .legal a {
   font-family: "Jakarta Sans";
   font-size: 0.8rem;
@@ -575,13 +532,11 @@ button.menuIcon:focus {
   line-height: 1.5rem;
   color: rgba(255, 255, 255, 0.5);
 }
-
 .slideOutNav .legal a:hover {
-  color: white;
+  color: rgb(255, 255, 255);
 }
-
 .slideOutNav .legal a:focus {
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 header {
@@ -596,21 +551,17 @@ header {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
-
 header .headerImgContainer {
   width: 45%;
 }
-
 header .headerImgContainer img {
   max-width: 100%;
   vertical-align: middle;
 }
-
 header .headerContent {
   width: 55%;
   color: #084b6d;
 }
-
 header .headerContent .contentContainer {
   margin: 0 auto;
   width: 65%;
@@ -645,7 +596,6 @@ main section {
   width: 33.33%;
   text-align: center;
 }
-
 .productImgContainer img {
   border-radius: 5%;
   margin: 24px;
@@ -664,7 +614,6 @@ main section {
       -ms-flex-align: center;
           align-items: center;
 }
-
 .play .playContainer {
   max-width: 650px;
   display: -webkit-box;
@@ -694,7 +643,6 @@ main section {
   text-align: center;
   width: 100%;
 }
-
 .categoryGallery .items {
   padding: 45px;
   margin: 50px 25px 25px;
@@ -713,35 +661,28 @@ main section {
   -webkit-transition: 0.2s ease;
   transition: 0.2s ease;
 }
-
 .categoryGallery .items img {
   width: 100%;
   border-radius: 10%;
   margin: 0 auto 20px auto;
 }
-
 .categoryGallery .items:hover {
   -webkit-transform: scale(0.95);
           transform: scale(0.95);
 }
-
 .categoryGallery .items:focus {
   -webkit-transform: scale(0.95);
           transform: scale(0.95);
 }
-
 .categoryGallery .itemOne {
   background-color: #ffd698;
 }
-
 .categoryGallery .itemTwo {
   background-color: #f4fcff;
 }
-
 .categoryGallery .itemThree {
   background-color: #f8fbf3;
 }
-
 .categoryGallery .itemFour {
   background-color: #fff5f5;
 }
@@ -751,7 +692,6 @@ main section {
   padding: 90px 0;
   margin: 0;
 }
-
 .gallery h2 {
   max-width: 500px;
 }
@@ -766,11 +706,9 @@ main section {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-
 .galleryItems .item {
   width: 15%;
 }
-
 .galleryItems .item img {
   width: 100%;
   display: block;
@@ -781,7 +719,6 @@ footer {
   color: #fff;
   padding: 90px 0 50px 0;
 }
-
 footer .footerFlexContainer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -791,20 +728,16 @@ footer .footerFlexContainer {
           justify-content: space-between;
   margin-bottom: 90px;
 }
-
 footer .footerFlexContainer h4 {
   color: #fff;
 }
-
 footer .newsletter {
   margin-right: 50px;
   width: calc(40% - 50px);
 }
-
 footer .newsletter form {
   position: relative;
 }
-
 footer .newsletter input {
   color: #fff;
   border-radius: 0;
@@ -817,21 +750,17 @@ footer .newsletter input {
   margin-bottom: 20px;
   width: 100%;
 }
-
 footer .newsletter input:focus {
-  border: 2px solid white;
+  border: 2px solid rgb(255, 255, 255);
 }
-
 footer .newsletter .secondary {
   position: absolute;
   top: 8px;
   right: 8px;
 }
-
 footer .footerNav {
   width: 40%;
 }
-
 footer .footerNav nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -840,25 +769,20 @@ footer .footerNav nav {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-
 footer .footerNav nav ul {
   width: 33%;
 }
-
 footer .footerNav nav a {
   color: rgba(255, 255, 255, 0.5);
   font-size: 0.8rem;
   line-height: 1.5rem;
 }
-
 footer .footerNav nav a:hover {
-  color: white;
+  color: rgb(255, 255, 255);
 }
-
 footer .footerNav nav a:focus {
-  color: white;
+  color: rgb(255, 255, 255);
 }
-
 footer .social {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -867,7 +791,6 @@ footer .social {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-
 footer .social i {
   font-size: 1.2rem;
   margin: 0 10px;
@@ -875,7 +798,6 @@ footer .social i {
   transition: 0.2s;
   cursor: pointer;
 }
-
 footer .social i:hover {
   color: #ffd698;
 }
@@ -924,7 +846,6 @@ footer .social i:hover {
     width: auto;
   }
 }
-
 /* 800px screen-size devices and smaller */
 @media (max-width: 800px) {
   h4 {
@@ -967,7 +888,6 @@ footer .social i:hover {
     width: 70%;
   }
 }
-
 /* 500px screen-size devices and smaller */
 @media (max-width: 500px) {
   h3 {
@@ -1008,7 +928,6 @@ footer .social i:hover {
   }
   .titleBar button {
     -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
         align-self: center;
   }
   .productImgContainer {
